@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+h1 span {
+    color: #f4a261;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+.parallax {
+    height: 300px;
+    background: url('parallax-background.jpg') no-repeat center center/cover;
+    position: relative;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('your-background-image.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: black; /* Make all text in the hero section black */
+}
+
+.hero-title, .hero-subtitle {
+    color: black; /* Ensure both title and subtitle are black */
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+/* Parallax Section */
+.parallax-section {
+    background-image: url('your-parallax-background.jpg'); /* Add your parallax background image */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: black; /* Make the text color black */
+}
+
+.parallax-title, .parallax-description {
+    color: black; /* Ensure both title and description are black */
+}
+
+.parallax-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.parallax-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Skills Section */
+/* Skill Section Styling */
+#skills h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skill Section Padding */
+#skills {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+
+/* Social Media Section */
+#social {
+    background-color: #222;
+    padding: 40px 0;
+}
+
+#social h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: white;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #f4a261;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .social-icon i {
+        font-size: 1.5rem;
+    }
+}
